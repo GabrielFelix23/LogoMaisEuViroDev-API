@@ -20,6 +20,10 @@ const UserSchema = new mongoose.Schema({
     createAt:{
         type: Date,
         default: Date.now
+    },
+    triggeredBy:{
+        type: String,
+        default: "Gabriel Felix"
     }
 })
 
